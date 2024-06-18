@@ -11,13 +11,15 @@ header {
 }
 
 nav {
-    float: left; /* Desplazamos el nav hacia la izquierda */
+    width: 100%;
+    margin-right: auto;
+    margin-left: 15%; 
 }
 
 nav ul {
     list-style: none;
     overflow: hidden; /* Limpiamos errores de float */
-    margin-left: 400px;
+    
 }
 
 nav ul li {
