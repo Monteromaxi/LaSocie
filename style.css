@@ -87,5 +87,48 @@ h5.textoencabezado {
 
 .piedepagina {
     border-top: 3px solid blue;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
+.temaspiedepagina {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 25px;
+}
+
+.sociepiedepagina {
+    color: rgb(4, 36, 179);
+}
+
+.titulopiedepagina {
+    color: rgb(4, 36, 179);
+}
+
+.piedepaginatexto {
+    color: rgb(4, 36, 179);
+}
+
+.logoigredes {
+    text-decoration: none;
+}
+
+.logoigredes:visited {
+    color: rgb(4, 36, 179);
+}
+
+.textohipervinculopiedepagina {
+    text-decoration: none;
+}
+
+.textohipervinculopiedepagina:visited {
+    color: rgb(4, 36, 179);
+}
+
+.derechos {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
