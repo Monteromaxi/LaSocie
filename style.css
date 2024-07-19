@@ -4,10 +4,8 @@
 }
 
 header {
-    background: rgb(4, 36, 179);
     width: 100%;
-    position: fixed;
-    z-index: 100;
+    background-color: blue;
 }
 
 nav {
@@ -28,6 +26,18 @@ nav ul li {
     font-size: 16px;
 }
 
+nav ul li  {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: rgb(176, 213, 245);
+    color: blue;
+}
+
 nav ul li a {
     display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
     padding: 20px;
@@ -40,8 +50,10 @@ nav ul li a:hover {
     color: blue;
 }
 
+
+
 body {
-    background-color: rgb(176, 213, 245);
+    background-color: white;
 }
 
 .encabezado {
